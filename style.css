@@ -3,14 +3,15 @@
   margin: 0;
 }
 body {
-  background-color: #3B4C68;
-}
+background: rgb(199,165,240);
+background: linear-gradient(90deg, rgba(199,165,240,1) 0%, rgba(146,225,247,1) 100%);}
 
 /* header */
 
 #backgroundbranco {
   background-color: white;
-  border-radius: 40px;
+  border-end-start-radius: 40px;
+  border-end-end-radius: 40px;
   z-index: -1;
   max-width: 2000px;
 }
@@ -39,15 +40,19 @@ body {
 
 
 #trem {
-  background-color: #8B65D2;
-  border-radius: 30%;
+  background-color: #3B4C68;
+  border-top-right-radius: 20%;
+  border-end-end-radius: 10%;
+  border-bottom-right-radius: 20%;
   margin-top: 20px;
   height: 50px;
   font-size: 30px;
-  margin-left: 10px;
   text-align: center;
   color: #E8E1FF;
 }
+
+
+
 
 #cor-branca:hover {
   color: #3B4C68;
@@ -81,6 +86,21 @@ body {
 
 .btn-secondary {
   display: none;
+}
+
+
+.sign {
+  margin-top: -1.9%;
+  letter-spacing: 2;
+  font-family: "Clip";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: #8B65D2;
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  animation: shine 2s forwards, flicker 3s infinite;
 }
 
 
@@ -119,17 +139,6 @@ body {
   
   }
 
-  #trem {
-    
-    background-color: #8B65D2;
-    border-radius: 30%;
-    margin-top: 20px;
-    min-width: 10px;
-    font-size: 20px;
-    margin-left: 10px;
-    text-align: center;
-    color: #E8E1FF;
-  }
 
 
 #perfil{
@@ -209,13 +218,13 @@ body {
   margin-top: 20%;
   background-color: #E8E1FF;
   height: 500px;
-  width: 400px;
+  width: 500px;
   border-radius: 20%;
 }
 
 .backgroundbrancosobre2 .imagem{
 
-  margin-top: 40%;
+  margin-top: 25%;
   border: #E8E1FF solid 5px;
   border-radius: 20%;
 
@@ -228,3 +237,28 @@ body {
 
 .titulo{color: #8B65D2;}
 
+.cortexto1{
+  font-size: 20px;
+}
+
+
+.backgroundbrancosobre3{
+
+  border: #E8E1FF solid 20px;
+  border-end-end-radius: 30%;
+  border-start-end-radius: 30%;
+  border-start-start-radius: 30%;
+  border-end-start-radius: 30%;
+  background-color: #E8E1FF;
+  height: 100px;
+  width: 500px;
+}
+
+.Curriculo{
+  text-decoration: none;
+transition: 1s;}
+
+  .Curriculo:hover{
+
+    color: white;
+  }
